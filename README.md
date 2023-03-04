@@ -1,6 +1,6 @@
 # Snake Game
 
-[![Build Status](https://travis-ci.org/DyegoCosta/snake-game.svg?branch=master)](https://travis-ci.org/DyegoCosta/snake-game)
+[![Build Status](https://travis-ci.org/zerobrew/the-terminal-snake.svg?branch=master)](https://travis-ci.org/zerobrew/the-terminal-snake)
 
 Terminal-based Snake game
 
@@ -11,19 +11,19 @@ Terminal-based Snake game
 ### Locally
 
 ```
-$ go get github.com/DyegoCosta/snake-game
-$ $GOPATH/bin/snake-game
+$ go get github.com/zerobrew/the-terminal-snake
+$ $GOPATH/bin/the-terminal-snake
 ```
 
 ### On Docker
 
 ```
-$ docker run -ti dyego/snake-game
+$ docker run -ti zero/the-terminal-snake
 ```
 
 ## Testing
 
 ```
-$ cd $GOPATH/src/github.com/DyegoCosta/snake-game
+$ cd $GOPATH/src/github.com/zerobrew/the-terminal-snake
 $ make
 ```
